@@ -172,16 +172,6 @@
     transition: all .3s;
 }
 
-.log_btn:hover {
-    color: #2C49FE;
-    background-color: #FFFFFF;
-    border: 2px solid #2C49FE;
-}
-
-.log_btn:hover a {
-    color: #2C49FE;
-}
-
 .unshow_btn {
     padding: 11px 28px;
     background: rgba(44, 73, 254, 0.1);
@@ -299,6 +289,12 @@ header ul li:not(:last-child) a:hover {
         left: 0;
     }
 
+    .circle {
+        height: 90px;
+        width: 90px;
+
+    }
+
     .mobile_view {
         position: fixed;
         display: flex;
@@ -411,15 +407,25 @@ header ul li:not(:last-child) a:hover {
 
     .post_btn {
         font-size: 16px !important;
-        padding: 11px 15px;
+        padding: 18px 15px;
     }
 
     a>span {
         display: none;
     }
+
+    .circle {
+        height: 60px;
+        width: 60px;
+        top: 39%;
+        right: 39%;
+
+    }
+
 }
+
 @media (min-width:768px) {
     .mobile_view {
-            top: 60px;  
-        }
+        top: 60px;
+    }
 }
